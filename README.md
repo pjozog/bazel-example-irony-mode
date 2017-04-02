@@ -20,3 +20,6 @@ The steps to reproduce are simple:
 1. Open `hello_irony/main.cc` and verify that irony mode successfully read
    `compile_commands.json` (via `M-x irony-cdb-menu`) but that the auto-complete
    features do not work.
+
+Credit to [this gist](https://gist.github.com/bsilver8192/0115ee5d040bb601e3b7)
+for how to generate a `compile_commands.json` file from `bazel`.
